@@ -89,7 +89,7 @@ book_recs = recommend_items(
     user_similarity_df=book_user_similarity
 )
 
-print(f"\n Recommended Books for User {user_id_books}:")
+print(f"\nRecommended Books for User {user_id_books}:")
 print(book_recs)
 user_id_music = 3
 music_recs = recommend_items(
@@ -98,5 +98,5 @@ music_recs = recommend_items(
     user_similarity_df=music_user_similarity
 )
 
-print(f"\n Recommended Music for User {user_id_music}:")
+print(f"\nRecommended Music for User {user_id_music}:")
 print(music_recs)
